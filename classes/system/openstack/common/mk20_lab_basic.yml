@@ -8,19 +8,19 @@ parameters:
           address: ${_param:cluster_node01_address}
           names:
           - ${_param:cluster_node01_hostname}
-          - ${_param:cluster_node01_hostname}.mk20-lab-basic.local
+          - ${_param:cluster_node01_hostname}.workshop.cloudlab.cz
         ctl02:
           address: ${_param:cluster_node02_address}
           names:
           - ${_param:cluster_node02_hostname}
-          - ${_param:cluster_node02_hostname}.mk20-lab-basic.local
+          - ${_param:cluster_node02_hostname}.workshop.cloudlab.cz
         ctl03:
           address: ${_param:cluster_node03_address}
           names:
           - ${_param:cluster_node03_hostname}
-          - ${_param:cluster_node03_hostname}.mk20-lab-basic.local
+          - ${_param:cluster_node03_hostname}.workshop.cloudlab.cz
         cmp01:
           address: 192.168.122.105
           names:
           - cmp01
-          - cmp01.mk20-lab-basic.local
+          - cmp01.workshop.cloudlab.cz
