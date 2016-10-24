@@ -20,14 +20,14 @@ parameters:
     galera_server_cluster_name: openstack_cluster
     galera_server_maintenance_password: workshop
     galera_server_admin_password: workshop
-    cluster_vip_address: 172.16.10.254
+    cluster_vip_address: 192.168.122.254
     cluster_local_address: ${_param:single_address}
     cluster_node01_hostname: ctl01
-    cluster_node01_address: 172.16.10.101
+    cluster_node01_address: 192.168.122.101
     cluster_node02_hostname: ctl02
-    cluster_node02_address: 172.16.10.102
+    cluster_node02_address: 192.168.122.102
     cluster_node03_hostname: ctl03
-    cluster_node03_address: 172.16.10.103
+    cluster_node03_address: 192.168.122.103
     rabbitmq_secret_key: workshop
     rabbitmq_admin_password: workshop
     rabbitmq_openstack_password: workshop
@@ -40,10 +40,10 @@ parameters:
     heat_service_host: ${_param:cluster_vip_address}
     heat_domain_admin_password: workshop
     ceilometer_version: ${_param:openstack_version}
-    ceilometer_service_host: 172.16.10.108
+    ceilometer_service_host: 192.168.122.108
     cinder_version: ${_param:openstack_version}
     cinder_service_host: ${_param:cluster_vip_address}
-    ceilometer_graphite_publisher_host: 172.16.10.107
+    ceilometer_graphite_publisher_host: 192.168.122.107
     ceilometer_graphite_publisher_port: 2013
     nova_version: ${_param:openstack_version}
     nova_service_host: ${_param:cluster_vip_address}

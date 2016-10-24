@@ -20,7 +20,7 @@ parameters:
           - ${_param:cluster_node03_hostname}
           - ${_param:cluster_node03_hostname}.mk20-lab-basic.local
         cmp01:
-          address: 172.16.10.105
+          address: 192.168.122.105
           names:
           - cmp01
           - cmp01.mk20-lab-basic.local

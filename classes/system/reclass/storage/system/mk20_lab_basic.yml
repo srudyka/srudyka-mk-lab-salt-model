@@ -12,7 +12,7 @@ parameters:
           - system.openstack.common.mk20_lab_basic
           params:
             salt_master_host: ${_param:reclass_config_master}
-            single_address: 172.16.10.101
+            single_address: 192.168.122.101
             keepalived_vip_interface: eth0
             keepalived_vip_priority: 103
             mysql_cluster_role: master
@@ -28,7 +28,7 @@ parameters:
           - system.openstack.common.mk20_lab_basic
           params:
             salt_master_host: ${_param:reclass_config_master}
-            single_address: 172.16.10.102
+            single_address: 192.168.122.102
             keepalived_vip_interface: eth0
             keepalived_vip_priority: 102
             mysql_cluster_role: slave
@@ -44,7 +44,7 @@ parameters:
           - system.openstack.common.mk20_lab_basic
           params:
             salt_master_host: ${_param:reclass_config_master}
-            single_address: 172.16.10.103
+            single_address: 192.168.122.103
             keepalived_vip_interface: eth0
             keepalived_vip_priority: 101
             mysql_cluster_role: slave
@@ -59,7 +59,7 @@ parameters:
           - system.openstack.common.mk20_lab_basic
           params:
             salt_master_host: ${_param:reclass_config_master}
-            single_address: 172.16.10.105
-            opencontrail_compute_address: 172.16.10.105
-            opencontrail_compute_gateway: 172.16.10.1
+            single_address: 192.168.122.105
+            opencontrail_compute_address: 192.168.122.105
+            opencontrail_compute_gateway: 192.168.122.1
             opencontrail_compute_iface: eth0

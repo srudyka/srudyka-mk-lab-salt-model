@@ -16,6 +16,6 @@ parameters:
           source: "deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main"
           key_url: "https://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest/SALTSTACK-GPG-KEY.pub"
   _param:
-    heka_amqp_host: 172.16.10.110
+    heka_amqp_host: 192.168.122.110
     heka_amqp_password: workshop
-    heka_elasticsearch_host: 172.16.10.110
+    heka_elasticsearch_host: 192.168.122.110

@@ -20,27 +20,27 @@ parameters:
           - ${_param:cluster_node03_hostname}
           - ${_param:cluster_node03_hostname}.mk20-lab-expert.local
         cmp01:
-          address: 172.16.10.105
+          address: 192.168.122.105
           names:
           - cmp01
           - cmp01.mk20-lab-expert.local
         cmp02:
-          address: 172.16.10.106
+          address: 192.168.122.106
           names:
           - cmp02
           - cmp02.mk20-lab-expert.local
         mon01:
-          address: 172.16.10.107
+          address: 192.168.122.107
           names:
           - mon01
           - mon01.mk20-lab-expert.local
         mtr01:
-          address: 172.16.10.108
+          address: 192.168.122.108
           names:
           - mtr01
           - mtr01.mk20-lab-expert.local
         log01:
-          address: 172.16.10.109
+          address: 192.168.122.109
           names:
           - log01
           - log01.mk20-lab-expert.local
